@@ -193,6 +193,10 @@ footer p {
   border-color: hotpink;
 }
 
+.for-phone {
+  display: none;
+}
+
 /* serviceに適用 */
 
 #rigcrunch-top {
