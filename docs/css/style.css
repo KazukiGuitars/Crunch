@@ -1,0 +1,435 @@
+
+/* 全体に適用 */
+
+body {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 15px;
+  color: #E1DEDA;
+  margin: 0;
+  background-color: #222222;
+}
+
+li {
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体";
+  color: black;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+.header {
+  background-color: #E1DEDA;
+  opacity: 0.7;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  margin-top: 0;
+}
+
+.logo-part {
+  float: left;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+.logo-part img {
+  max-width: 200px;
+  height: auto;
+}
+
+.menu-part {
+  float: right;
+  height: 100px;
+}
+
+
+.menu-part ul {
+  display: table;
+  padding-right: 60px;
+}
+
+.menu-part li {
+  display: table-cell;
+  padding: 22px 0;
+}
+
+.menu-part li:not(:last-child):after {
+  content: '/';
+  color: black;
+  padding: 0 20px;
+}
+
+.menu-icon {
+  display: none;
+  float: right;
+  text-align: right;
+  margin: 34px 50px 0 0;
+  opacity: 0.7;
+}
+
+  
+.menu-icon img {
+  max-width: 32px;
+}
+
+.menu {
+  display: none;
+  height: 500px;
+  text-align: center;
+}
+
+.menu ul {
+  display: block;
+  text-align: center;
+  margin: 0;
+  padding-top: 100px;
+  padding-left: 0;
+}
+
+.menu li {
+  display: block;
+  font-size: 16px;
+  padding: 16px 0;
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+footer {
+  text-align: center;
+  margin-top: 80px;
+}
+
+footer p {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+/* homeに適用 */
+
+#home-wrapper {
+  background-image: url(../image/danny-howe-bn-D2bCvpik-unsplash.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.copywrite {
+  font-size: 24px;
+  padding-left: 50px;
+  padding-top: 128px;
+}
+
+/* companyに適用*/
+
+#vision-wrapper {
+  background-image: url(../image/nicolagypsicola-hnZYcZNiha8-unsplash.jpg);
+  background-size: cover;
+  height: 780px;
+}
+
+.company-title {
+  font-size: 24px;
+  margin-left: 50px;
+  padding-top: 128px;
+}
+
+.company-title h1 {
+  border-bottom: solid 1px;
+  border-color: hotpink;
+}
+
+.company-text {
+  float: left;
+  font-size: 20px;
+  margin-left: 50px;
+  padding-top: 32px;
+  width: 70%;
+}
+
+
+#mission-wrapper {
+  background-image: url(../image/panos-sakalakis-63sI4HO30tw-unsplash.jpg);
+  background-size: cover;
+  height: 780px;
+  margin-top: 112px;
+}
+
+
+#value-wrapper {
+  background-image: url(../image/markus-spiske-81H0FtewfLc-unsplash.jpg);
+  background-size: cover;
+  height: 780px;
+  margin-top: 112px;
+}
+
+.value-cards ul{
+  text-align: center;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.value-cards li {
+  display: inline-block;
+  height: 160px;
+  width: 260px;
+  padding-left: 20px;
+  margin: 0 100px 100px 0;
+  background-color: black;
+  opacity: 0.6;
+  border: solid 2px;
+}
+
+.value-cards p {
+  text-align: left;
+}
+
+.value-cards li:hover {
+  border-color: hotpink;
+}
+
+/* serviceに適用 */
+
+#rigcrunch-top {
+  background-image: url(../image/alex-brisbey-KGQhWwB0tDg-unsplash.jpg);
+  background-size: cover;
+  height: 780px;
+  display: flex;
+}
+
+.rigcrunch-title {
+  margin: auto;
+}
+
+.rigcrunch-title img {
+  max-width: 400px;
+}
+
+.rigcrunch-title p {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 0;
+}
+
+#rigcrunch-content {
+  background-image: url(../image/adult-band-black-and-white-210766.jpg);
+  background-size: cover;
+  background-position: bottom;
+  height: 780px;
+  margin-top: 112px;
+}
+
+.rc-explanation {
+  font-size: 24px;
+  margin-left: 50px;
+  padding-top: 128px;
+}
+
+.rc-explanation h1 {
+  border-bottom: solid 1px;
+  border-color: orange;
+}
+
+.rc-explanation p {
+  padding-top: 32px;
+  width: 70%;
+}
+
+/* recruitに適用 */
+
+.recruit-top {
+  background-image: url(../image/access-adult-black-and-white-1449052.jpg);
+  background-size: cover;
+  height: 780px;
+  display: flex;
+}
+
+.recruit-title {
+  margin: auto;
+}
+
+.recruit-title h1 {
+  font-size: 80px;
+  margin-bottom: 0px;
+  text-align: center;
+  color: hotpink;
+  opacity: 0.5;
+}
+
+.recruit-title p {
+  font-size: 20px;
+  color: black;
+  opacity: 0.5;
+}
+
+/* contactに適用 */
+
+.contact-top {
+  background-image: url(../image/audience-band-concert-1494665.jpg);
+  background-size: cover;
+  height: 780px;
+}
+
+.contact-title {
+  font-size: 24px;
+  margin-left: 50px;
+  padding-top: 128px;
+}
+
+.contact-content {
+  background-color: #E1DEDA;
+  opacity: 0.7;
+  height: 421px;
+  margin: 20px 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: solid 1px;
+  border-color: hotpink;
+}
+
+.contact-content h2 {
+  color: black;
+  margin: 0;
+}
+
+.twitter {
+  text-align: center;
+  font-size: 24px;
+}
+
+.instagram {
+  
+  text-align: center;
+  font-size: 24px;
+}
+
+/* アイパッド対応 */
+
+@media screen and (max-width: 1166px) { 
+  .value-cards li {
+    margin: 0 50px 0 50px;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .contact-title p {
+    font-size: 16px;
+  }
+}
+
+/* スマホ対応 */
+
+@media screen and (max-width: 880px) { 
+  
+/* header */
+  
+  .logo-part {
+    padding: 40px 0 0 50px;
+  }
+  
+  .logo-part img {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  .menu-part {
+    display: none;
+  }
+  
+  .bar{
+    display: block;
+  }
+
+/* company */
+  
+  .company-title {
+    font-size: 16px;
+  }
+  
+  .company-text {
+    font-size: 16px;
+  }
+  
+  .for-pc {
+    display: none;
+  }
+  
+  .for-phone {
+    display: block;
+  }
+  
+  .value-cards ul{
+    font-size: 20px;
+    margin: 0 0 0 50px;
+    padding: 0;
+  }
+    
+  .value-cards li {
+    display: block;
+    height: 56px;
+    width: 260px;
+    padding-left: 20px;
+    margin: 20px 30px 30px 0;
+    background-color: black;
+    opacity: 0.6;
+    border: solid 2px;
+  }
+  
+  .value-cards p{
+    margin: 13px 0;
+  }
+  
+/* service */
+  
+  .rigcrunch-title img {
+    max-width: 300px;
+  }
+  
+  .rigcrunch-title p {
+    font-size: 24px;
+  }
+  
+  .rc-explanation p {
+    width: 100%;
+  }
+  
+/* recruit */
+  
+  .recruit-title h1 {
+    font-size: 56px;
+  }
+  
+  .recruit-title p {
+    font-size: 16px;
+  }
+  
+/* contact */
+  
+  .contact-title p {
+    font-size: 16px;
+  }
+  
+  .twitter {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .instagram {
+    text-align: center;
+    font-size: 12px;
+  }
+  
+  .contact-content {
+    height: 360px;
+  }
+  
+  .contact-content img {
+    max-width: 100px;
+  }
+}
